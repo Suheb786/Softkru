@@ -34,12 +34,15 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     
   }
   h5{
-    color: #00F260;
+    color: #e2c72c;
     font-size: 3em;
     font-weight: 700;
     padding-top: 0px;
+  }
+  h5:hover{
+    color:#3fd8cb;
+    transition: 1s;
     
-   
   }
 
   h2 {
@@ -130,8 +133,8 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     color: #ffffff;
     cursor: pointer;
     font-size: inherit;
-    font-weight: normal;
-    padding: 15px 30px;
+    font-weight:600;
+    padding: 10px 15px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
@@ -149,7 +152,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     background: #5D5DAC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #EE3B60, #5D5DAC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EE3B60, #5D5DAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    opacity: 0.9;
+    opacity: 0.95;
     position: absolute;
     width: 100%;
     height: 1000%;
@@ -359,15 +362,15 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   }
 
   .home-info .section-btn {
-    background: transparent;
-    border: 2px solid #f9f9f9;
+    background: #ce3232;
+    
     color: #f9f9f9;
   }
 
   .home-info .section-btn:hover,
   .home-info .section-btn:focus {
-    background: #ce3232;
-    border-color: transparent;
+    background: #5D5DAC;
+    
     color: #ffffff;
   }
 
@@ -429,7 +432,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 
 
   /*---------------------------------------
-      WORK             
+      Blog & WORK             
   -----------------------------------------*/
 
   .work-info img {
@@ -506,7 +509,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   -----------------------------------------*/
 
   #blog {
-    background: #f0f0f0;
+    background: #c0c0d1;
   }
 
   #blog-header,
@@ -918,7 +921,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   @media screen and (max-width: 991px) {
 
     h3 {
-      font-size: 1.2em;
+      font-size: 1.5em;
     }
 
     p {
@@ -1010,6 +1013,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       color: #252525;
       font-weight: 600;
     }
+    
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {

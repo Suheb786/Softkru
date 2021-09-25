@@ -138,7 +138,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   .section-btn:hover,
   .section-btn:focus {
     background: #5D5DAC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EE3B60, #5D5DAC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #EE3B60, #313164);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EE3B60, #5D5DAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
     color: #393939;

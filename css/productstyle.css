@@ -1,31 +1,10 @@
-/*-------------------------------------------------------------------------------------- 
-	Theme Name: Chamb - Responsive E-commerce HTML5 Template 
----------------------------------------------------------------------------------------- 
-    
-	1. IMPORT FILES
-	2. BASE CSS 
-	3. HEADER
-	   - Logo
-	   - Search Bar
-	4. PAGE CONTENT PRODUCT 
-	5. SECTION
-	   - Products Exciting
-	   - Start Free
-	6. PRODUCT
-	7. FOOTER
-	   - Copyright
-	8. INNER PAGE   
-	   - How it Works
-	   - About Us
-	   - Terms Page
-	   - Cooming Soon
-	   - Category
-	   - Profile
-	   - Pricing
-	   - Product Page
-	   - New Layout css
-	
---------------------------------------------------------------------------------------*/
+/*
+
+Er.Suheb
+
+https://www.linkedin.com/in/er-suheb-3b9824214/
+
+*/  
 
 /*------------------------------------------------------------- 
 	1. IMPORT FILES
@@ -117,13 +96,9 @@ textarea {
 
 
 .main-product {
-	
-	
-	
-	background-image:linear-gradient(to bottom right, rgba(20, 124, 98, 0), #b68d8d);
 
-	
-	padding-bottom: 180px;
+	background-image:linear-gradient(to bottom right, rgba(20, 124, 98, 0), #b68d8d);
+	padding-bottom: 40px;
 	background-position: center center;
 }
 
@@ -131,7 +106,7 @@ textarea {
 	max-width: 780px;
 	margin: 0 auto;
 	width: 100%;
-	padding: 60px 0px 45px 0px;
+	padding: 40px 1px 35px 1px;
 }
 
 .find-box h1 {
@@ -143,31 +118,19 @@ textarea {
 	font-size: 60px;
 	text-align:center;
 	padding-bottom: 10px;
-	opacity: 90%;
-	
-	
+	opacity: 80%;
 }
-
-
-
-
-.product-sh p {
-	clear: both;
-	margin: 0px;
+.find-box h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
 	text-align: center;
-	padding-top: 30px;
-	color: #ddd;
-	font-size: 16px;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: #8d1d55;
+	opacity: 50%;
 }
 
-.product-sh p a {
-	color: #007dea;
-}
-
-.product-sh p a:hover,
-.product-sh p a:focus {
-	color: #007dea;
-}
 
 .box-img {
 	
@@ -185,434 +148,27 @@ textarea {
 }
 
 .box-img h4 {
-	color: #fff;
-	padding-top: 35px;
-	padding-bottom: 30px;
-	font-size: 30px;
-	font-weight: 500;
-	transition: all 0.3s ease 0s;
-	letter-spacing: 0px;
+	
+	background: linear-gradient(to right, #EE3B60 , #5d5dac);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-top: 9px;
+	font-size: 22px;
+	font-weight: 900;
+	transition: all 0.1s ease 0s;
+	letter-spacing: 1px;
 }
+
 
 .box-img:hover {
 	cursor: pointer;
-	transform: scale(1.09);
-	background: #ffffff;
+	transform: scale(1.06);
+	background: #eeeeee;
 }
-
-
-
-/*------------------------------------------------------------- 
-	5. SECTION
--------------------------------------------------------------*/
-
-/*-- Products Exciting --*/
-
-
-
-
-/*------------------------------------------------------------- 
-	6. PRODUCT
--------------------------------------------------------------*/
-
-.products {
-	padding: 40px 0px 60px 0px;
-	background: #fff;
-	position: relative;
-}
-
-
-
-.main-products h2 {
-	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
-	color: #09294c;
-	
-	font-size: 14px;
-	text-align: center;
-}
-
-.slick-slide {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: 0.3s ease-in-out all;
-	transition: 0.3s ease-in-out all;
-}
-
-.switch {
-	background: #000;
-}
-
-.slider {
-	margin: 0 auto;
-	position: relative;
-}
-
-.prod-box {
-	border: 1px solid #e7e7e7;
-	background: #fff;
-	padding: 12px;
-	margin: 0px 15px;
-}
-
-.prod-i img {
-	width: 100%;
-}
-
-.left-ti {
-	float: left;
-}
-
-.dit-t {
-	padding: 7px 0px;
-}
-
-.dit-t h4 {
-	font-size: 15px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	color: #333333;
-	margin-bottom: 3px;
-	margin-top: 3px;
-}
-
-.dit-t p {
-	font-size: 12px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	color: #acacac;
-	margin: 0px;
-}
-
-.dit-t p span {
-	color: #2da0ff;
-}
-
-.dit-t a {
-	background: #ffffff;
-	border: 1px solid #ccd4da;
-	border-radius: 2px;
-	color: #09294c;
-	font-size: 13px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	float: right;
-	padding: 6px 15px;
-}
-
-.dit-btn a {
-	background: #ffffff;
-	border: 1px solid #ccd4da;
-	border-radius: 2px;
-	color: #a5a5a5;
-	font-size: 11px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	padding: 6px 15px;
-}
-
-.dit-btn a:hover {
-	color: #1c95fd;
-}
-
-.wis {
-	float: left;
-}
-
-.thi {
-	float: right;
-}
-
-.dit-btn {
-	padding-top: 10px;
-}
-
-.dit-btn a i {
-	padding-right: 6px;
-}
-
-.product-slidr .slider .slick-prev {
-	display: none;
-}
-
-.product-slidr .slider .slick-next {
-	display: none;
-}
-
-/*------------------------------------------------------------- 
-	7. FOOTER
--------------------------------------------------------------*/
-
-
-/*-- Copyright --*/
 
 /*------------------------------------------------------------- 
 	8. INNER PAGE 
 -------------------------------------------------------------*/
-
-
-
-/*-- Category --*/
-
-
-/*-- Profile --*/
-
-.profile-b {
-	position: relative;
-}
-
-.profile-b img {
-	width: 100%;
-}
-
-.profile-b::before {
-	content: "";
-	position: absolute;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0+0,1+100 */
-	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000', GradientType=0);
-	/* IE6-9 */
-	height: 180px;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	opacity: 0.5;
-}
-
-.dit-p {
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-}
-
-.profile-left-b {
-	float: left;
-	padding-bottom: 21px;
-}
-
-.profile-left-b ul {
-	margin: 0px;
-	padding: 0px;
-}
-
-.profile-left-b ul li {
-	display: inline-block;
-	border-right: 1px solid #fff;
-	padding: 0px 5px;
-}
-
-.profile-left-b ul li a {
-	font-size: 17px;
-	font-weight: 400;
-	color: #fff;
-}
-
-.profile-left-b ul li:last-child {
-	border: none;
-}
-
-.profile-right-b {
-	float: right;
-	padding-bottom: 21px;
-}
-
-.profile-right-b a.vi-btn {
-	background: #fff;
-	color: #333333;
-	border-radius: 2px;
-	font-size: 13px;
-	font-weight: 700;
-	padding: 9px 25px;
-	display: inline-block;
-}
-
-.profile-right-b a.fo-btn {
-	background: #1f95ff;
-	color: #fff;
-	border-radius: 2px;
-	font-size: 13px;
-	font-weight: 700;
-	padding: 9px 25px;
-	display: inline-block;
-	margin-left: 20px;
-}
-
-
-
-.profile-pro-left {
-	margin-top: -88px;
-}
-
-.left-profile-box-m {
-	margin-left: 15px;
-}
-
-.pr {
-	padding-right: 0px;
-}
-
-.left-profile-box-m h3 {
-	font-size: 16px;
-	font-weight: 700;
-	padding-top: 10px;
-	padding-bottom: 8px;
-	float: left;
-}
-
-.check-box {
-	position: relative;
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background: #27cb98;
-	border-radius: 50%;
-	margin: 9px 5px;
-	-webkit-box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-.check-box::before {
-	top: 2px;
-	left: 2px;
-	width: 8px;
-	height: 13px;
-	border-top: 2px solid transparent;
-	border-left: 2px solid transparent;
-	border-right: 2px solid #fff !important;
-	border-bottom: 2px solid #fff !important;
-	-webkit-transform: rotateZ(37deg);
-	transform: rotateZ(37deg);
-	-webkit-transform-origin: 100% 100%;
-	transform-origin: 100% 100%;
-	position: absolute;
-	content: "";
-}
-
-.left-profile-box-m p {
-	font-size: 13px;
-	color: #979797;
-	margin: 0px;
-	padding-bottom: 17px;
-	display: inline-block;
-}
-
-.left-profile-box-m p img {
-	margin-right: 10px;
-}
-
-.left-profile-box-m a {
-	background: #1f95ff;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 700;
-	padding: 12px 6px;
-	border-radius: 2px;
-	margin-bottom: 19px;
-	display: block;
-	text-align: center;
-	clear: both;
-}
-
-.pro-img {
-	background: #fff;
-	padding: 8px;
-	border-radius: 2px;
-	-webkit-box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 6px 10px -5px rgba(0, 0, 0, 0.1);
-}
-
-.profile-pro-right {
-	padding-top: 10px;
-}
-
-.profile-pro-right .panel-default {
-	background-color: transparent;
-	margin: 0px;
-}
-
-.profile-pro-right .panel-default>.panel-heading {
-	background-color: transparent;
-	border: none;
-	padding: 0px;
-}
-
-.profile-pro-right .panel-default>.panel-heading {
-	margin-bottom: 15px;
-}
-
-.profile-pro-right .nav>li>a:focus,
-.nav>li>a:hover {
-	background-color: transparent;
-	border: none;
-}
-
-.profile-pro-right .nav-tabs>li>a {
-	font-size: 16px;
-	font-weight: 400;
-	color: #353334;
-	border: none;
-	border-bottom: 2px solid transparent;
-	margin: 0px;
-	border-radius: 0px;
-	padding: 10px 0px;
-}
-
-.profile-pro-right .nav-tabs>li>a span {
-	color: #1f96fe;
-}
-
-.profile-pro-right .nav-tabs>li {
-	margin: 0px;
-	margin: 0px 10px;
-}
-
-.profile-pro-right .nav-tabs>li.active>a,
-.profile-pro-right .nav-tabs>li.active>a:focus,
-.profile-pro-right .nav-tabs>li.active>a:hover {
-	border: none;
-	border-bottom: 2px solid #c6c6c6;
-	font-weight: 700;
-	color: #333333;
-}
-
-.profile-pro-right .nav-tabs {
-	border-bottom: none;
-}
-
-
-
-.profile-pro-right .panel-default .panel-body {
-	padding: 15px 6px;
-}
-
-.product-box-main .small-box-c {
-	margin-bottom: 20px;
-}
-
-.product-box-main .small-box-c .prod-btn a:hover {
-	color: #1c95fd;
-}
-
-.about-box h2 {
-	color: #333;
-	font-size: 28px;
-	font-weight: 400;
-	line-height: 56px;
-	margin-bottom: 40px;
-}
-
-.about-box p {
-	color: #333;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 32px;
-	margin-bottom: 40px;
-}
 
 /*-- Pricing --*/
 
@@ -623,7 +179,7 @@ textarea {
 }
 
 .product-page-main {
-	background: #797979;
+	background: #ada1a1;
 }
 
 .prod-page-title {
@@ -659,9 +215,10 @@ textarea {
 }
 
 .md-prod-page-in {
-	padding: 11px;
-	background: rgb(203, 203, 235);
-	border-bottom: 1px solid #f5f5f5;
+	
+	padding: 10px;
+	background: rgb(236, 234, 234);
+	
 }
 
 img {
@@ -679,20 +236,25 @@ img {
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	padding-bottom: 20px;
+	
 	
 }
 
 @media screen and (max-width: 996px) {
 	.preview {
-		margin-bottom: 20px;
-	}
+		
+		margin-top: 10px;
 }
+}
+
 
 .preview-pic {
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
+	
 	
 
 }
@@ -728,7 +290,7 @@ img {
 }
 
 .preview-pic.tab-content {
-	border: 5px solid #ddd;
+	border: 3px solid #ddd;
 	width: 99%;
 	margin: 0.5%;
 }
@@ -742,7 +304,7 @@ img {
 }
 
 .preview-thumbnail.nav-tabs li.active a {
-	border: 5px solid #19a7ac;
+	border: 3px solid #19a7ac;
 }
 
 .btn-dit-list {
@@ -862,4 +424,3 @@ img {
 .bg_img_right img {
 	width: 100%;
 }
-

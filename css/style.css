@@ -792,7 +792,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   }
 
   .social-icon li a:hover {
-    color: #ce3232;
+    color: #ce328d;
   }
 
 
@@ -1055,7 +1055,8 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     .footer-bottom .phone-contact {
       margin-right: 0;
     }
-  }
+   
+}
 
   @media screen and (max-width: 639px) {
 

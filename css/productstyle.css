@@ -120,6 +120,17 @@ textarea {
 	padding-bottom: 10px;
 	opacity: 80%;
 }
+.find-box h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	padding-bottom: 20px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: #8d1d55;
+	opacity: 50%;
+}
+
 
 .box-img {
 	
@@ -141,8 +152,8 @@ textarea {
 	background: linear-gradient(to right, #EE3B60 , #5d5dac);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	
-	font-size: 30px;
+	padding-top: 9px;
+	font-size: 22px;
 	font-weight: 900;
 	transition: all 0.1s ease 0s;
 	letter-spacing: 1px;
@@ -151,19 +162,9 @@ textarea {
 
 .box-img:hover {
 	cursor: pointer;
-	transform: scale(1.08);
+	transform: scale(1.06);
 	background: #eeeeee;
 }
-
-
-
-
-/*------------------------------------------------------------- 
-	7. FOOTER
--------------------------------------------------------------*/
-
-
-/*-- Copyright --*/
 
 /*------------------------------------------------------------- 
 	8. INNER PAGE 
@@ -244,9 +245,9 @@ img {
 	.preview {
 		
 		margin-top: 10px;
-		
-	}
 }
+}
+
 
 .preview-pic {
 	-webkit-box-flex: 1;
@@ -423,4 +424,3 @@ img {
 .bg_img_right img {
 	width: 100%;
 }
-

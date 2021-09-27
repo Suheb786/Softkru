@@ -122,10 +122,6 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     font-size: 5em;
     line-height: 0;
   }
-.section-btn1{
-  font-weight: 500;
-}
-
   .section-btn {
     background: #ce3232;
     border: 0;
@@ -136,17 +132,37 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     font-weight:600;
     padding: 10px 15px;
     -webkit-transition: 0.5s;
+  
     transition: 0.5s;
   }
 
-  .section-btn:hover,
-  .section-btn:focus {
-    background: #5D5DAC;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EE3B60, #313164);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EE3B60, #5D5DAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.section-btn1{
+  font-weight: 500;
+}
+.section-btn2{
+  background:linear-gradient(to right, #4d69c4 ,    #793eb5);
+    border: 0px;
+    border-radius: 100px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight:600;
+    padding: 10px 15px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.section-btn2:hover,
+  .section-btn2:focus {
+    transform: scale(0.9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
-    color: #393939;
+    color: white;
+    transition: 0.5s;
+    
   }
+
+
+ 
 
   .overlay {
     background: #5D5DAC;  /* fallback for old browsers */
@@ -1032,6 +1048,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       height: 100vh;
     }
    
+
     .media.blog-thumb .media-left {
       height: 550px;
     }
@@ -1114,10 +1131,11 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 
   @media screen and (max-width: 639px) {
 
-    h1 {
-      font-size: 2em;
-    }
 
+    h1 {
+      font-size: 1.5em;
+      
+    }
     .media.blog-thumb .media-left {
       height: 320px;
     }

@@ -101,7 +101,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   }
 
   a:hover, a:active, a:focus {
-    color: #b63f3f;
+    color: #0095a0;
     outline: none;
   }
 
@@ -113,6 +113,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     margin-top: 0;
     margin-bottom: 10px;
     line-height: 0;
+    color: white;
   }
 
   .section-title .line-bar {
@@ -121,6 +122,9 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     font-size: 5em;
     line-height: 0;
   }
+.section-btn1{
+  font-weight: 500;
+}
 
   .section-btn {
     background: #ce3232;
@@ -549,15 +553,29 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   .media.blog-thumb .media-left {
     width: 45%;
   }
+  
+  .blog-thumb{
+    transition: ease all 0.7s;
+    border-radius: 13px;
+  }
 
   .blog-thumb small {
     color: #ce3232;
     font-weight: 500;
     display: block;
+    
+    
   }
 
   .blog-thumb small .fa {
     margin-right: 5px;
+  }
+  .blog-thumb:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: ease all 0.5s;
+    border-radius: 16px;
+    
   }
 
   .blog-thumb h4 {
@@ -580,16 +598,34 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   }
 
   .blog-info .section-btn {
-    background: #f0f0f0;
-    color: #393939;
-    margin-top: 10px;
+    background: #2d6bbd;
+    color: #e6e1e1; 
+    font-weight: 500;
+    
+	
+	
+  }
+
+  .blog-info .section-btn1 {
+   background: #CC3334;
+    color: #e6e1e1; 
+    font-weight: 500;
+    
+	
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+  .blog-info .section-btn1:hover {
+    
+    transform: scale(0.9);
+    
+   
   }
 
   .blog-info .section-btn:hover {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FAEE40, #FAEE40);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FAEE40, #FAEE40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #000000;
+    
+    transform: scale(0.9);
+    
    
   }
 
@@ -918,6 +954,13 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     .custom-navbar .navbar-nav.navbar-nav-first {
       margin-left: inherit;
     }
+    p{
+      font-size: 13px;
+    }
+    .blog-info{
+      padding-top: 15px;
+    }
+    
   }
 
   @media screen and (max-width: 991px) {
@@ -925,7 +968,8 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     h3 {
       font-size: 1.5em;
     }
-
+    
+    
     p {
       font-size: 13px;
     }
@@ -948,12 +992,14 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       margin-left: 1em;
     }
 
+   
     .blog-thumb {
       height: inherit;
     }
 
     .blog-info {
       padding: 45px 25px;
+      
     }
 
     .media.blog-thumb .media-left {
@@ -961,6 +1007,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       width: 100%;
       padding-right: 0;
       overflow: hidden;
+      
     }
 
     .media.blog-thumb .media-left {
@@ -984,7 +1031,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     #blog-header {
       height: 100vh;
     }
-
+   
     .media.blog-thumb .media-left {
       height: 550px;
     }
@@ -992,6 +1039,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     .media.blog-thumb .media-left img {
       position: relative;
       bottom: 10em;
+      
     }
   }
 
@@ -1004,7 +1052,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       padding: 10px 0;
     }
-
+   
     .custom-navbar .nav li a {
       line-height: normal;
       padding: 5px;
@@ -1073,7 +1121,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     .media.blog-thumb .media-left {
       height: 320px;
     }
-
+    
     .media.blog-thumb .media-left img {
       position: relative;
       bottom: 6em;

@@ -159,6 +159,17 @@ textarea {
 	letter-spacing: 1px;
 }
 
+.box-img h6 {
+	
+	background: linear-gradient(to right, #ee0000 , #ffdb0f);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding-top: 9px;
+	font-size: 22px;
+	font-weight: 900;
+	transition: all 0.1s ease 0s;
+	letter-spacing: 1px;
+}
 
 .box-img:hover {
 	cursor: pointer;

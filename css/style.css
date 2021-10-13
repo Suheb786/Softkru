@@ -41,6 +41,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   }
   
 
+
   h2 {
     color: #352e2e;
     font-size: 1.8em;
@@ -154,7 +155,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 }
 .section-btn2:hover,
   .section-btn2:focus {
-    transform: scale(0.9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: scale(0.95); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
     color: white;
     transition: 0.5s;
@@ -709,9 +710,12 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     background: -webkit-linear-gradient(to right, #EE3B60, #5D5DAC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EE3B60, #5D5DAC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
+#about .section-title h2{
+  color: #000000;
+}
 
   #contact .section-title h2 {
-    color: #ffffff;
+    color: #fff3f3;
   }
   
 
@@ -978,6 +982,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     }
     
   }
+ 
 
   @media screen and (max-width: 991px) {
 
@@ -985,6 +990,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       font-size: 1.5em;
     }
     
+  
     
     p {
       font-size: 13px;

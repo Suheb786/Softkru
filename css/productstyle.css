@@ -319,7 +319,7 @@ img {
 
 .preview-thumbnail.nav-tabs li img {
 	max-width: 100%;
-	display: block;
+	display:block;
 }
 
 .preview-thumbnail.nav-tabs li a {
@@ -345,6 +345,7 @@ img {
 
 .tab-content img {
 	width: 100%;
+	
 	-webkit-animation-name: opacity;
 	animation-name: opacity;
 	-webkit-animation-duration: .3s;

@@ -4,7 +4,13 @@ Er.Suheb
 
 https://www.linkedin.com/in/er-suheb-3b9824214/
 
+
 */  
+
+
+
+
+
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
@@ -13,6 +19,15 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     overflow-x: hidden;
   }
 
+  /* ---------------------------------------
+    Custom CSS
+  ------------------------------------------*/
+
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
   /*---------------------------------------
      TYPOGRAPHY              

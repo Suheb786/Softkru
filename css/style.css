@@ -254,6 +254,10 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       MENU              
   -----------------------------------------*/
 
+.logo{
+  height: 45px; float: left ; padding-left: 20px; 
+}
+
   .custom-navbar {
     border: none;
     margin-bottom: 0;
@@ -310,7 +314,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #e0d31c;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -322,7 +326,9 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     background-color: transparent;
     color: #ce3232;
   }
-
+.navbar-brand{
+  padding-left: 35px;
+}
   .custom-navbar .navbar-toggle {
     border: none;
     padding-top: 10px;
@@ -342,6 +348,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       border-bottom: 0;
       background: 0 0; 
     }
+    
 
     .custom-navbar.top-nav-collapse {
       background: #ffffff;
@@ -599,6 +606,20 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     
   }
 
+  .section-btn1 {
+    font-size: 14px;
+  }
+  .section-btn2 {
+    font-size: 13px;
+  
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top:7px ;
+    padding-bottom: 7px;
+    margin-top: 7px ;
+  
+  }
+
   .blog-thumb small .fa {
     margin-right: 5px;
   }
@@ -786,8 +807,8 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 
   footer {
     background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #1f1f1f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #252525, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     position: relative;
     padding-top: 80px;
     padding-bottom: 60px;
@@ -878,6 +899,8 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   -----------------------------------------*/
 
   @media (min-width: 992px) {
+    
+
     .modal-dialog {
       width: 420px;
     }
@@ -983,8 +1006,20 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
+  @media only screen and (min-width: 990px) and (max-width: 1199px){
+.section-btn1{
+  font-size: 10px;
+}
+.section-btn2{
+  font-size: 10px;
+}
+.blog-info{
+  padding-top: 15px;
+}
+  }
 
-  @media screen and (max-width: 1170px) {
+
+  @media screen and (max-width: 1199px) {
 
     .custom-navbar .navbar-nav.navbar-nav-first {
       margin-left: inherit;
@@ -1005,7 +1040,9 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       font-size: 1.5em;
     }
     
-  
+    .media.blog-thumb img{
+    width: 350px;
+  }
     
     p {
       font-size: 13px;
@@ -1020,18 +1057,18 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     }
 
     .custom-navbar .nav li a {
-      font-size: 13px;
+      font-size: 12px;
       padding-right: 11px;
       padding-left: 11px;
     }
-
+    
     .custom-navbar .section-btn {
       margin-left: 1em;
     }
 
    
     .blog-thumb {
-      height: inherit;
+      height: 560px;
     }
 
     .blog-info {
@@ -1052,8 +1089,9 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     }
 
     .media.blog-thumb .media-left img {
-      position: relative;
-      bottom: 10em;
+      position:relative;
+      bottom: 2em;
+      
     }
 
     #work .work-thumb,
@@ -1063,6 +1101,18 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     }
   }
 
+  @media only screen and (min-width: 360px) and (max-width: 639px) {
+    
+    .media
+
+    .media.blog-thumb  {
+      height: 630px;
+    }
+  }
+.media.blog-thumb img{
+  width: 700px;
+ 
+}
   @media only screen and (min-width: 640px) and (max-width: 767px) {
 
     #blog-header {
@@ -1070,15 +1120,36 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
     }
    
 
+
     .media.blog-thumb .media-left {
-      height: 550px;
+      height: 300px;
     }
 
     .media.blog-thumb .media-left img {
       position: relative;
-      bottom: 10em;
-      
+      bottom: 1em;
+      width: 750px;
+  
+  
     }
+  }
+
+  @media screen and (max-width: 1007px){
+h3{
+  font-size: 1.5em;
+}
+.section-btn1 {
+  font-size: 10px;
+}
+.section-btn2 {
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top:7px ;
+  padding-bottom: 7px;
+  margin-top: 7px ;
+
+}
   }
 
   @media screen and (max-width: 767px) {
@@ -1088,20 +1159,29 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
+      padding: 4px 0;
+      padding-left: 10px;
+      
     }
    
     .custom-navbar .nav li a {
       line-height: normal;
       padding: 5px;
+      font-size: 14px;
     }
 
     .custom-navbar .navbar-brand,
     .top-nav-collapse .navbar-brand {
-      color: #252525;
+      color: #2f2f2f;
       font-weight: 600;
+      display: inline-block;
+    text-align:center;
+    float: none;
+      font-size: 24px;
+      padding-right: 60px;
+      
     }
-    
+  
 
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
@@ -1135,9 +1215,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
       margin: 40px 0 40px 0;
     }
 
-    .google-map {
-      margin-top: 50px;
-    }
+    
 
     footer {
       text-align: center;
@@ -1151,6 +1229,7 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 }
 
   @media screen and (max-width: 639px) {
+
 
 
     h1 {

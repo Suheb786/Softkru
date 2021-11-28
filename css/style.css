@@ -1103,10 +1103,9 @@ https://www.linkedin.com/in/er-suheb-3b9824214/
 
   @media only screen and (min-width: 360px) and (max-width: 639px) {
     
-    .media
-
-    .media.blog-thumb  {
+    .media.media.blog-thumb  {
       height: 630px;
+      
     }
   }
 .media.blog-thumb img{
